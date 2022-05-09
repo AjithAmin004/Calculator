@@ -36,6 +36,7 @@ body{
     margin-right: 3px;
     border-radius: 20px;
     font-size: xx-large;
+    outline: none;
     box-shadow:inset 3px 3px 1px #00000060,5px 5px 5px #00000070;
 }
 
