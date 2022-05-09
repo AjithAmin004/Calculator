@@ -7,7 +7,9 @@ for(let i=0;i<btns.length;i++){
       console.log(e.target.innerText);
       let val = e.target.innerText;
       if(val == '='){
-        string = eval(string)
+          if(string!=''){
+        string = eval(string);
+          }
         let display = document.querySelector('#ans');
         display.value=string;
       }else if(val=='Clear'){
